@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: pink;
+    font-family: Arial;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.yes {
+    background-color: red;
+    color: white;
+}
+
+.no {
+    background-color: black;
+    color: white;
+}
